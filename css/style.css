@@ -1,0 +1,181 @@
+body {
+    font-family: 'Roboto', sans-serif; ;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 10%;
+    background-color: oldlace;
+}
+
+h1{
+    font-size: 45px;
+    font-weight: 900;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+h2{
+    font-size: 50px;
+    font-weight: 900;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+.blue{
+    color:rgb(133, 107, 145);
+}
+ /* banner start */
+ .banner {
+    display: flex;
+    padding: 5px;
+    margin-bottom: 60px;
+}
+.half-width {
+    width: 50%;
+    padding: 5px;
+}
+.half-width img {
+    width: 80%;
+    margin-left: 80px;
+}
+.h1-banner{
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    border-left: 5px solid rgb(56, 56, 131);
+    padding-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+.p-all{
+    margin-bottom: 30px;
+}
+
+.btn{ 
+    text-decoration: none;
+    background-color: rgb(56, 56, 131);
+    color: white;
+    font-weight: 700;
+    padding: 10px 30px;
+}
+  /* banner end */
+
+  /* mission start */
+.mission {
+    padding: 5px;
+    margin-bottom: 60px;
+}
+.mission .mission-threepart {
+    display: flex;
+    width: 30%;
+}
+.round{
+    border-radius: 20px;
+    padding: 25px;
+    margin-right: 5%;
+}
+.box1 {
+      background-color: paleturquoise;
+  }
+.box2 {
+    background-color:rgb(142, 144, 243);
+
+}
+.box3 {
+    background-color: rgb(133, 107, 145);
+}
+.mission-image {
+        width: 100%;
+        margin: auto;
+}
+  /* mission end */
+
+    /* develop start */
+    .develop{
+        display: flex;
+        padding: 5px;
+        margin-bottom: 60px;
+    }
+    
+    .half-width-coding {
+        width: 50%;
+        padding: 5px;
+    }
+    .half-width-coding img{
+            width: 80%;
+            margin: 0;
+        
+    }
+    
+    /* develop end */
+    
+    /* community start */
+    .community{
+        display: flex;
+        padding: 5px;
+        margin-bottom: 60px;
+    }
+    
+      /* community end */
+
+      /* recent work star */
+      .recent-work{
+        padding: 5px;
+        margin-bottom: 60px;
+      }
+
+      a {
+        color: #7510F7;
+        cursor: pointer;
+        text-decoration: none;
+        font-weight: 900;
+    }
+
+.recentborder{
+    display: flex;
+    border-radius: 20px;
+        padding: 20px 0;
+        margin-right: 5%;
+        width: 33%;
+        height: 300px;
+        
+}
+
+.recent1{
+    background-image: url(../mission-2022-main/images/pictures/coding.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 50px;
+}
+.recent2{
+    background-image: url(../mission-2022-main/images/pictures/project.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 50px;
+
+}
+.recent3{
+    background-image: url(../mission-2022-main/images/pictures/coding.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+      /* recent work end */
+
+      /* footer start */
+.footer{
+    background-color: black;
+    margin: 0 -800px;
+}
+.h3-footer{
+    font-family: 'Island Moments', cursive;
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+h4{
+    color: white;
+    text-align: center;
+padding-bottom: 10px;
+
+}
+      /* footer end */
+    
