@@ -27,6 +27,7 @@ h2{
     display: flex;
     padding: 5px;
     margin-bottom: 60px;
+    width: 100%;
 }
 .half-width {
     width: 50%;
@@ -48,6 +49,7 @@ h2{
     margin-bottom: 30px;
 }
 
+
 .btn{ 
     text-decoration: none;
     background-color: rgb(56, 56, 131);
@@ -62,29 +64,49 @@ h2{
     padding: 5px;
     margin-bottom: 60px;
 }
-.mission .mission-threepart {
+.mission-threepart {
     display: flex;
-    width: 30%;
+    width: 100%;
 }
-.round{
-    border-radius: 20px;
-    padding: 25px;
-    margin-right: 5%;
-}
+
 .box1 {
       background-color: paleturquoise;
-  }
+        border-radius: 20px;
+        padding: 25px;
+        margin-right: 5%;
+        width: 33.33%;
+   }
+
+  .box1 img {
+    width: 50%;
+    margin: auto;
+}
 .box2 {
     background-color:rgb(142, 144, 243);
+    border-radius: 20px;
+        padding: 25px;
+        margin-right: 5%;
+        width: 33.33%;
 
 }
+
+.box2 img {
+    width: 50%;
+    margin: auto;
+}
+
 .box3 {
     background-color: rgb(133, 107, 145);
+    border-radius: 20px;
+        padding: 25px;
+        width: 33.33%;
 }
-.mission-image {
-        width: 100%;
-        margin: auto;
+
+.box3 img {
+    width: 50%;
+    margin: auto;
 }
+
   /* mission end */
 
     /* develop start */
@@ -133,9 +155,8 @@ h2{
     border-radius: 20px;
         padding: 20px 0;
         margin-right: 5%;
-        width: 33%;
         height: 300px;
-        
+        width: 100%;  
 }
 
 .recent1{
@@ -143,25 +164,29 @@ h2{
     background-repeat: no-repeat;
     background-size: cover;
     margin-right: 50px;
+    width: 33.33%;
 }
 .recent2{
     background-image: url(../mission-2022-main/images/pictures/project.png);
     background-repeat: no-repeat;
     background-size: cover;
     margin-right: 50px;
+    width: 33.33%;
 
 }
 .recent3{
     background-image: url(../mission-2022-main/images/pictures/coding.png);
     background-repeat: no-repeat;
     background-size: cover;
+    width: 33.33%;
+    
 }
       /* recent work end */
 
       /* footer start */
 .footer{
     background-color: black;
-    margin: 0 -800px;
+    margin: 0;
 }
 .h3-footer{
     font-family: 'Island Moments', cursive;
